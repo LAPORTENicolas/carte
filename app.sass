@@ -1,0 +1,52 @@
+html, body
+  background-color: #01142E
+
+///////////////////////////
+////////// VAR ///////////
+/////////////////////////
+$gold: #EBDE88
+
+
+///////////////////////////
+////////// VAR ///////////
+/////////////////////////
+
+.spacer
+  margin: 10px 0 10px 35%
+  height: 3px
+  background: $gold
+  width: 30%
+
+///////////////////////////
+///////// HEADER /////////
+/////////////////////////
+
+header
+  .title
+    display: flex
+    justify-content: center
+    img:nth-child(3)
+      transform: rotateY(180deg)
+    h1
+      margin: auto 0
+      font-family: "Bodoni Moda", serif
+      font-size: 30px
+      color: white
+  .header
+    ul
+      display: flex
+      justify-content: center
+      margin-top: 0
+      li
+        font-family: "Bodoni Moda", serif
+        list-style: none
+        a
+          color: white
+          text-decoration: none
+          &:hover
+            color: $gold
+            transition: 0.2s
+      .header-spacer
+        background-color: $gold
+        width: 2px
+        margin: 0 10px

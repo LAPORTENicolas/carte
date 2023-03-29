@@ -1,0 +1,48 @@
+html, body {
+  background-color: #01142E;
+}
+
+.spacer {
+  margin: 10px 0 10px 35%;
+  height: 3px;
+  background: #EBDE88;
+  width: 30%;
+}
+
+header .title {
+  display: flex;
+  justify-content: center;
+}
+header .title img:nth-child(3) {
+  transform: rotateY(180deg);
+}
+header .title h1 {
+  margin: auto 0;
+  font-family: "Bodoni Moda", serif;
+  font-size: 30px;
+  color: white;
+}
+header .header ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+header .header ul li {
+  font-family: "Bodoni Moda", serif;
+  list-style: none;
+}
+header .header ul li a {
+  color: white;
+  text-decoration: none;
+}
+header .header ul li a:hover {
+  color: #EBDE88;
+  transition: 0.2s;
+}
+header .header ul .header-spacer {
+  background-color: #EBDE88;
+  width: 2px;
+  margin: 0 10px;
+}
+
+/*# sourceMappingURL=app.css.map */
