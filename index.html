@@ -16,15 +16,17 @@
             <img src="img/kisspng-ornament-drawing-pattern-golden-pattern-5ad06bcc452309%201.png" alt="gold ornament reverse">
         </div>
 
-        <div class="spacer"></div>
+        <div class="spacer">
+            <div class="spacer-line"></div>
+        </div>
 
         <nav class="header">
             <ul>
-                <li><a href="#">Soft</a></li>
+                <li><a href="#soft">Soft</a></li>
                 <li class="header-spacer"></li>
-                <li><a href="#">Aperitif</a></li>
+                <li><a href="#apero">Aperitif</a></li>
                 <li class="header-spacer"></li>
-                <li><a href="#">Cocktail</a></li>
+                <li><a href="#cocktail">Cocktail</a></li>
                 <li class="header-spacer"></li>
                 <li><a href="#">Biere</a></li>
                 <li class="header-spacer"></li>
@@ -41,17 +43,38 @@
         </nav>
     </header>
 
-    <section id="soft">
-        <h2>Title</h2>
-        <div class="spacer"></div>
-    </section>
-    <section id="aperitif"></section>
-    <section id="cocktail"></section>
-    <section id="biere"></section>
-    <section id="spiritueux"></section>
-    <section id="digestif"></section>
-    <section id="vin"></section>
-    <section id="champagne"></section>
-    <section id="boisson chaude"></section>
+    <div id="carrousel">
+        <div class="left" id="CarrouselLeft">
+            <div class="leftBlock">
+                <img src="img/carrousel/buffet%20left%20side%201.png" alt="Buffet"/>
+                <img src="img/carrousel/damn%20it%20s%20beautiful%201.png" alt="Buffet"/>
+                <img src="img/carrousel/buffet%20left%20side%201.png" alt="Buffet"/>
+                <img src="img/carrousel/damn%20it%20s%20beautiful%201.png" alt="Buffet"/>
+                <img src="img/carrousel/buffet%20left%20side%201.png" alt="Buffet" />
+            </div>
+        </div>
+        <div class="right" id="CarrouselRight">
+            <div class="rightBlock">
+                <img src="img/carrousel/buffet%20left%20side%201.png" alt="Buffet"/>
+                <img src="img/carrousel/damn%20it%20s%20beautiful%201.png" alt="Buffet"/>
+                <img src="img/carrousel/buffet%20left%20side%201.png" alt="Buffet"/>
+                <img src="img/carrousel/damn%20it%20s%20beautiful%201.png" alt="Buffet"/>
+                <img src="img/carrousel/buffet%20left%20side%201.png" alt="Buffet" />
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section id="aperitif"></section>
+        <section id="cocktail"></section>
+        <section id="biere"></section>
+        <section id="spiritueux"></section>
+        <section id="digestif"></section>
+        <section id="vin"></section>
+        <section id="champagne"></section>
+        <section id="boisson chaude"></section>
+    </main>
+
+    <script src="app.js"></script>
 </body>
 </html>
